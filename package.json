@@ -1,0 +1,11 @@
+{
+  "name": "atelier-psicotecnico",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "node dev-server.mjs",
+    "start": "node dev-server.mjs",
+    "check": "node --check app.js && node --check questoes.js",
+    "test": "node tools/verificar.cjs"
+  }
+}
